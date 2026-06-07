@@ -1,6 +1,8 @@
 # BirdCLEF+ 2026 — 5th Place Solution
 
-This repository contains the **CNN training code** for my 5th place finish in the [BirdCLEF+ 2026 Kaggle competition](https://www.kaggle.com/competitions/birdclef-2026). The final ensemble also includes two public models (ProtoSSM and Distilled SED) whose inference notebooks live under `notebooks/` — this repo covers the full CNN training pipeline that built the core of my submission.
+This repository contains the **CNN training code** for my 5th place finish in the [BirdCLEF+ 2026 Kaggle competition](https://www.kaggle.com/competitions/birdclef-2026). The final ensemble also includes two public models (ProtoSSM and Distilled SED) whose inference notebooks live under `notebooks/` — this repo covers the full CNN training pipeline that built the core of my submission. 
+
+Kaggle write-up: [5th-place-solution-both-are-all-you-need]([5th Place Solution: Diversity and Bug - Both Are All You Need | Kaggle](https://www.kaggle.com/competitions/birdclef-2026/writeups/5th-place-solution-both-are-all-you-need))
 
 ---
 
@@ -198,7 +200,9 @@ birdc/
 └── train_soundscapes_labels.csv
 ```
 
-### Pretrained Weights
+### Weights
+
+#### Pretrained Weights
 
 - **EffV2-S models** require the [XLS pretrained backbone](https://www.kaggle.com/datasets/vladimirsydor/bird-clef-2025-all-pretrained-models?select=models_2025):
 
@@ -207,7 +211,12 @@ birdc/
   ```
 
   If missing, a warning is printed and the model falls back to ImageNet init.
+  
 - **Eff-B3 and HGNet** use `pretrained=True` — weights are downloaded automatically by timm on first run (internet required).
+
+#### Final CNN Weights
+
+- All models's weights in link:  [birdclef2026-5th-final-cnn-models](https://www.kaggle.com/datasets/jakkma/birdclef2026-5th-final-cnn-models)
 
 ---
 
