@@ -2,7 +2,7 @@
 
 This repository contains the **CNN training code** for my 5th place finish in the [BirdCLEF+ 2026 Kaggle competition](https://www.kaggle.com/competitions/birdclef-2026). The final ensemble also includes two public models (ProtoSSM and Distilled SED) whose inference notebooks live under `notebooks/` — this repo covers the full CNN training pipeline that built the core of my submission. 
 
-Kaggle write-up: [5th-place-solution-both-are-all-you-need]([5th Place Solution: Diversity and Bug - Both Are All You Need | Kaggle](https://www.kaggle.com/competitions/birdclef-2026/writeups/5th-place-solution-both-are-all-you-need))
+Kaggle write-up: [5th Place Solution: Diversity and Bug - Both Are All You Need](https://www.kaggle.com/competitions/birdclef-2026/writeups/5th-place-solution-both-are-all-you-need)
 
 ---
 
@@ -267,7 +267,7 @@ python train.py --model effv2s --stage 10s --seed 1086
 
 ## Outputs
 
-```
+```txt
 outputs/
 ├── effv2s_stage1_seed1086/           best_model_fold0.pt, result_fold0.csv
 ├── effv2s_stage2_seed1086/
