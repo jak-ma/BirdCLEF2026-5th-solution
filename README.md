@@ -146,7 +146,7 @@ A frozen copy of Stage 1 acts as a teacher. The student is trained on blended la
 
 ### Stage 3 — Unlabeled Soundscapes
 
-The competition provides ~5,200 unlabeled soundscapes. The teacher generates soft labels for random 5s crops, and the student learns from them alongside labeled data. Unlabeled samples use full-file random cropping.
+The competition provides 10,000+ unlabeled soundscapes. The teacher generates soft labels for random 5s crops, and the student learns from them alongside labeled data. Unlabeled samples use full-file random cropping.
 
 ### 10-Second Variant
 
